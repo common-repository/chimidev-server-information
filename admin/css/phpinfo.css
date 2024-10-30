@@ -1,0 +1,42 @@
+.phpinfo .center table {
+    margin: 1em 0;
+}
+
+.phpinfo table {
+    border-collapse: collapse;
+    border: 0;
+    width: 934px;
+    box-shadow: 1px 2px 3px #ccc;
+}
+
+.phpinfo .e {
+    background-color: #ccf;
+    width: 300px;
+    font-weight: bold;
+}
+
+.phpinfo .v {
+    background-color: #ddd;
+    max-width: 300px;
+    overflow-x: auto;
+    word-wrap: break-word;
+}
+
+.phpinfo .h {
+    font-weight: bold;
+    background-color: #99c;
+}
+
+.phpinfo td, .phpinfo th {
+    border: 1px solid #666;
+    font-size: 75%;
+    vertical-align: baseline;
+    padding: 4px 5px;
+}
+
+.phpinfo td {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
